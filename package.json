@@ -1,10 +1,10 @@
 {
-  "name": "react-native-9patch-image",
+  "name": "@hola.org/react-native-9patch-image",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rusfearuth/react-native-9patch-image.git"
+    "url": "https://github.com/hola/react-native-9patch-image.git"
   },
-  "version": "0.3.1",
+  "version": "0.3.1-1",
   "description": "This native module supports of using 9-patch drawable resources`",
   "author": {
     "name": "Alexander Ustinov",
