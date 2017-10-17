@@ -16,6 +16,11 @@ public class RCTImageCapInsetPackage implements ReactPackage {
         return Collections.emptyList();
     }
 
+    // deprecated, was @Override, older react native needs this
+    public List<Class<? extends JavaScriptModule>> createJSModules() {
+        return Collections.emptyList();
+    }
+
     @Override
     public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {
         return Arrays.<ViewManager>asList(new RCTImageCapInsetManager());
